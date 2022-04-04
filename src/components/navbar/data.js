@@ -1,0 +1,50 @@
+import React from 'react'
+import {
+  FaBehance,
+  FaFacebook,
+  FaGit,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from 'react-icons/fa'
+export const links = [
+  {
+    id: 1,
+    url: '/',
+    text: 'Home',
+  },
+  {
+    id: 2,
+    url: '/about',
+    text: 'about me',
+  },
+  {
+    id: 3,
+    url: '/projects',
+    text: 'projects',
+  },
+  {
+    id: 4,
+    url: '/contact',
+    text: 'contact',
+  },
+]
+
+export const social = [
+  {
+    id: 1,
+    url: 'https://www.twitter.com',
+    icon: <FaInstagram />,
+  },
+  {
+    id: 2,
+    url: 'https://www.twitter.com',
+    icon: <FaLinkedin />,
+  },
+  {
+    id: 3,
+    url: 'https://www.twitter.com',
+    icon: <FaGithub />,
+  },
+]
